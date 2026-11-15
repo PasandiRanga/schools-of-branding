@@ -1,0 +1,61 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 30px 30px 30px 30px;
+  width: 360px;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--color-ivory-cream);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 20px 10px 20px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.foundations {
+  width: fit-content;
+  height: fit-content;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.number-sense {
+  width: 100%;
+  height: fit-content;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.text {
+  width: 100%;
+  height: fit-content;
+}

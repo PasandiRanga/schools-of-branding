@@ -1,0 +1,41 @@
+.default {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 20px 8px 20px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: var(--color-ivory-cream);
+}
+
+.title {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* variant: Orange */
+
+.default[data-variant="Orange"] {
+  padding: 6px 20px 6px 20px;
+  background-color: var(--color-burnt-orange);
+}
+
+/* variant: Gray */
+
+.default[data-variant="Gray"] {
+  background-color: var(--color-warm-beige);
+}
+
+/* variant: White */
+
+.default[data-variant="White"] {
+  background-color: var(--color-white);
+  border-style: solid;
+  border-color: var(--color-deep-forest-green-20);
+  border-width: 1px;
+}

@@ -1,0 +1,257 @@
+.default {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-radius: 100px;
+  overflow: hidden;
+  background-color: var(--color-burnt-orange);
+}
+
+.default-icon {
+  width: 16px;
+  height: 18px;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 72%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/xviu2Rb6LAnfNECfjrnBdHYA.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hover-icon {
+  width: 16px;
+  height: 18px;
+  aspect-ratio: 1;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/xviu2Rb6LAnfNECfjrnBdHYA.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.spinner {
+  gap: 10px;
+  width: 20px;
+  height: 18px;
+  aspect-ratio: 1;
+  position: absolute;
+  top: 0px;
+  left: 48%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  display: none;
+}
+
+.conic {
+  height: 18px;
+  aspect-ratio: 1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-image: conic-gradient(from 0deg, rgba(0, 0, 0, 0) 2%, rgb(255, 255, 255) 95%);
+}
+
+.rounding {
+  width: 2px;
+  height: 2px;
+  aspect-ratio: 1;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1px;
+  background-color: var(--color-white);
+}
+
+/* variant: Default */
+
+.default:hover .default-icon {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default:hover .hover-icon {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default:hover .spinner {
+  position: relative;
+  top: initial;
+  left: initial;
+  transform: initial;
+}
+
+/* variant: Loading */
+
+.default[data-variant="Loading"] .default-icon {
+  display: none;
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default[data-variant="Loading"] .hover-icon {
+  display: none;
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default[data-variant="Loading"] .spinner {
+  position: relative;
+  top: initial;
+  left: initial;
+  transform: initial;
+  display: initial;
+}
+
+.default[data-variant="Loading"] .conic {
+  overflow: hidden;
+}
+
+/* variant: Disabled */
+
+.default[data-variant="Disabled"] {
+  opacity: 0.5;
+}
+
+.default[data-variant="Disabled"] .default-icon {
+  background-image: url("https://framerusercontent.com/images/sbsPlFFJ9pOfJEPiVrFku2kdYaA.svg");
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default[data-variant="Disabled"] .hover-icon {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default[data-variant="Disabled"] .spinner {
+  position: relative;
+  top: initial;
+  left: initial;
+  transform: initial;
+}
+
+/* variant: Success */
+
+.default[data-variant="Success"] .default-icon {
+  background-image: url("https://framerusercontent.com/images/khKiOmBLFaiEbHn7fTKeF6UOQRY.svg");
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default[data-variant="Success"] .hover-icon {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default[data-variant="Success"] .spinner {
+  position: relative;
+  top: initial;
+  left: initial;
+  transform: initial;
+}
+
+/* variant: Error */
+
+.default[data-variant="Error"] {
+  background-color: rgba(255, 34, 68, 0.15);
+}
+
+.default[data-variant="Error"] .default-icon {
+  background-image: url("https://framerusercontent.com/images/snsIsj5nZKzUmiQwkra1p4WNLjs.svg");
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default[data-variant="Error"] .hover-icon {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default[data-variant="Error"] .spinner {
+  position: relative;
+  top: initial;
+  left: initial;
+  transform: initial;
+}
+
+/* variant: Phone */
+
+.default[data-variant="Phone"] .default-icon {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default[data-variant="Phone"] .hover-icon {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default[data-variant="Phone"] .spinner {
+  position: relative;
+  top: initial;
+  left: initial;
+  transform: initial;
+}
+
+/* responsive: Phone */
+
+@media (max-width: 809px) {
+  .default-icon {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .hover-icon {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .spinner {
+    position: relative;
+    top: initial;
+    left: initial;
+    transform: initial;
+  }
+}

@@ -1,0 +1,758 @@
+{
+ "page": {
+  "Desktop|0": "desktop",
+  "Desktop>Main|0": "main",
+  "Desktop>Main>Hero|0": "hero",
+  "Desktop>Main>Hero>Container|0": "container",
+  "Desktop>Main>Hero>Container>Content|0": "content",
+  "Desktop>Main>Hero>Container>Content>Heading|0": "heading",
+  "Desktop>Main>Hero>Container>Content>Heading>Heading|0": "heading2",
+  "Desktop>Main>Hero>Container>Content>Heading>Heading>Meet|0": "meet",
+  "Desktop>Main>Hero>Container>Content>Heading>Heading>the|0": "the",
+  "Desktop>Main>Hero>Container>Content>Heading>Heading>minds|0": "minds",
+  "Desktop>Main>Hero>Container>Content>Heading>Heading>the|1": "the2",
+  "Desktop>Main>Hero>Container>Content>Heading>Heading>Highlight|0": "highlight",
+  "Desktop>Main>Hero>Container>Content>Heading>Heading>Highlight>learning|0": "learning",
+  "Desktop>Main>Hero>Container>Content>Heading>Heading>Highlight>Top Decor|0": "top-decor",
+  "Desktop>Main>Hero>Container>Content>Heading>Heading>Highlight>Bottom Decor|0": "bottom-decor",
+  "Desktop>Main>Hero>Container>Content>We rebuild confidence first, then speed. From number sense to calculus, every learner gets a plan built around their actual gaps not a generic worksheet pile.|0": "text",
+  "Desktop>Main>Mentor|0": "mentor",
+  "Desktop>Main>Mentor>Container|0": "container2",
+  "Desktop>Main>Mentor>Container>Content|0": "content2",
+  "Desktop>Main>Mentor>Container>Content>Mentors|0": "mentors",
+  "Desktop>Main>Mentor>Container>Content>Mentors>Mentor|0": "mentor2",
+  "Desktop>Main>Mentor>Container>Content>Mentors>CTA|0": "cta",
+  "Desktop>Main>Mentor>Container>Content>Mentors>CTA>Top|0": "top",
+  "Desktop>Main>Mentor>Container>Content>Mentors>CTA>Top>Top|0": "top2",
+  "Desktop>Main>Mentor>Container>Content>Mentors>CTA>Top>Top>Share what you know. Shape what’s next.|0": "h5",
+  "Desktop>Main>Mentor>Container>Content>Mentors>CTA>Top>Top>Inspire students, share your expertise, and make learning more meaningful.|0": "text2",
+  "Desktop>Main>Mentor>Container>Content>Mentors>CTA>Bottom|0": "bottom"
+ },
+ "components": {
+  "Navigation": {
+   "layerName": "Navigation",
+   "variantNames": [
+    "Desktop",
+    "Tablet - Close",
+    "Tablet - Open",
+    "Phone - Close",
+    "Phone - Open"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Container|0": "container",
+    "Desktop>Container>Grid Nav|0": "grid-nav",
+    "Desktop>Container>Grid Nav>Left|0": "left",
+    "Desktop>Container>Grid Nav>Center|0": "center",
+    "Desktop>Container>Grid Nav>Center>Home|0": "home",
+    "Desktop>Container>Grid Nav>Center>About|0": "about",
+    "Desktop>Container>Grid Nav>Center>Program|0": "program",
+    "Desktop>Container>Grid Nav>Center>Mentor|0": "mentor",
+    "Desktop>Container>Grid Nav>Center>Contact|0": "contact",
+    "Desktop>Container>Grid Nav>Right|0": "right",
+    "Desktop>Container>Grid Nav>Right>Menu Button|0": "menu-button",
+    "Desktop>Container>Grid Nav>Right>Menu Button>01|0": "n-01",
+    "Desktop>Container>Grid Nav>Right>Menu Button>02|0": "n-02",
+    "Desktop>Overlay|0": "overlay"
+   }
+  },
+  "Button": {
+   "layerName": "Button",
+   "variantNames": [
+    "Default",
+    "Default",
+    "Primary",
+    "Primary",
+    "White",
+    "White",
+    "Nav",
+    "Nav",
+    "Nav - Phone",
+    "Primary - Phone",
+    "White - Phone",
+    "Phone"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Content|0": "content",
+    "Default>Content>Contact us|0": "buttontext"
+   }
+  },
+  "BrandLogo": {
+   "layerName": "Brand Logo",
+   "variantNames": [
+    "Default",
+    "Light"
+   ],
+   "paths": {
+    "Default|0": "default"
+   }
+  },
+  "PreTitle": {
+   "layerName": "Pre Title",
+   "variantNames": [
+    "Default"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Dot|0": "dot",
+    "Default>Dot>Done|0": "done",
+    "Default>Pre title|0": "title"
+   }
+  },
+  "ProgramCard": {
+   "layerName": "Program Card",
+   "variantNames": [
+    "Desktop",
+    "Desktop",
+    "Phone",
+    "Flip",
+    "Top - Bottom",
+    "Top - Bottom"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Left|0": "left",
+    "Desktop>Left>Programm Icon|0": "programm-icon",
+    "Desktop>Left>Programm Icon>Icon BG|0": "icon-bg",
+    "Desktop>Left>Programm Icon>Icon BG>Icon|0": "icon",
+    "Desktop>Left>Content|0": "content",
+    "Desktop>Left>Content>Mathematics|0": "title",
+    "Desktop>Left>Content>Arithmetic to calculus fundamentals|0": "shortdescription",
+    "Desktop>Right|0": "right",
+    "Desktop>Right>Image|0": "image"
+   }
+  },
+  "TeamCard": {
+   "layerName": "Team Card",
+   "variantNames": [
+    "Default",
+    "Default",
+    "Phone"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Top|0": "top",
+    "Default>Top>Top|0": "top2",
+    "Default>Top>Top>Maya Chen|0": "name",
+    "Default>Top>Top>Mathematics|0": "jobtitle",
+    "Default>Top>Bottom|0": "bottom",
+    "Default>Top>Bottom>Image|0": "image",
+    "Default>Bottom|0": "bottom2",
+    "Default>Bottom>Former school math teacher with 9 years turning \"I hate math\" into \"Wait, that's it?\"|0": "shortdescription"
+   }
+  },
+  "Badge": {
+   "layerName": "Badge",
+   "variantNames": [
+    "Default",
+    "Orange",
+    "Gray",
+    "White"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Levels|0": "title"
+   }
+  },
+  "TestimonialCard": {
+   "layerName": "Testimonial Card",
+   "variantNames": [
+    "Desktop"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Image|0": "star",
+    "Desktop>Bottom|0": "bottom",
+    "Desktop>Bottom>Top|0": "top",
+    "Desktop>Bottom>Top>Quoted a fair fixed price, and that’s exactly what I paid when I collected. First garage I’ve actually trusted.|0": "description",
+    "Desktop>Bottom>Bottom|0": "bottom2",
+    "Desktop>Bottom>Bottom>Avatar|0": "avatar",
+    "Desktop>Bottom>Bottom>Avatar>Image|0": "avatar2",
+    "Desktop>Bottom>Bottom>Name/Disease|0": "name-disease",
+    "Desktop>Bottom>Bottom>Name/Disease>Caroline Wells|0": "name",
+    "Desktop>Bottom>Bottom>Name/Disease>VW Golf GTI|0": "job"
+   }
+  },
+  "PricingCard": {
+   "layerName": "Pricing Card",
+   "variantNames": [
+    "Default",
+    "Popular",
+    "Phone",
+    "Phone - Popular"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Top|0": "top",
+    "Default>Top>Pricing Header|0": "pricing-header",
+    "Default>Top>Pricing Header>Title|0": "title",
+    "Default>Top>Pricing Header>Title>Group|0": "title2",
+    "Default>Top>Pricing Header>Price|0": "price",
+    "Default>Top>Pricing Header>Price>$149|0": "shortdescription",
+    "Default>Top>Pricing Header>Price>Unit|0": "unit",
+    "Default>Top>Pricing Header>Price>Unit>/ month|0": "price2",
+    "Default>Top>Pricing Header>Price/Decription|0": "price-decription",
+    "Default>Top>Pricing Header>Price/Decription>Description|0": "description",
+    "Default>Top>Pricing Header>Price/Decription>Description>Expert preparation and review without full-service hand-holding.|0": "unit2",
+    "Default>Top>Border|0": "border",
+    "Default>Top>Pricing Features|0": "pricing-features",
+    "Default>Bottom|0": "bottom"
+   }
+  },
+  "ListItem": {
+   "layerName": "List Item",
+   "variantNames": [
+    "Default",
+    "BG Color"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Icon|0": "icon",
+    "Default>Icon>Image|0": "image",
+    "Default>Add your list item here|0": "text"
+   }
+  },
+  "PricingButton": {
+   "layerName": "Pricing Button",
+   "variantNames": [
+    "Default",
+    "Gray",
+    "Default",
+    "Gray",
+    "Phone",
+    "Phone - Gray"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Content|0": "content",
+    "Default>Content>Contact us|0": "contact-us"
+   }
+  },
+  "GeneralAccordion": {
+   "layerName": "General Accordion",
+   "variantNames": [
+    "Desktop",
+    "Phone"
+   ],
+   "paths": {
+    "Desktop|0": "desktop"
+   }
+  },
+  "Accordion": {
+   "layerName": "Accordion",
+   "variantNames": [
+    "Close - Desktop",
+    "Open - Desktop",
+    "Close - Phone",
+    "Open - Phone"
+   ],
+   "paths": {
+    "Close - Desktop|0": "close-desktop",
+    "Close - Desktop>Question|0": "question",
+    "Close - Desktop>Question>How do I choose the right plan for me?|0": "h5",
+    "Close - Desktop>Question>Icon|0": "icon",
+    "Close - Desktop>Question>Icon>Divider|0": "divider",
+    "Close - Desktop>Question>Icon>Divider|1": "divider2",
+    "Close - Desktop>Bottom|0": "bottom",
+    "Close - Desktop>Bottom>Answer|0": "answer",
+    "Close - Desktop>Bottom>Answer>We recommend starting with a consultation to discuss your fitness goals and preferences. This way, we can tailor a plan that suits your individual needs.|0": "text"
+   }
+  },
+  "SocialIcon": {
+   "layerName": "Social Icon",
+   "variantNames": [
+    "Desktop",
+    "Desktop",
+    "Phone"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Image|0": "icon"
+   }
+  },
+  "Counter": {
+   "layerName": "Counter",
+   "variantNames": [
+    "Default",
+    "Flip"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>900+|0": "number",
+    "Default>Info|0": "info",
+    "Default>Info>Learners since 2018|0": "title"
+   }
+  },
+  "StepCard": {
+   "layerName": "Step Card",
+   "variantNames": [
+    "Default",
+    "Phone"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Step|0": "step",
+    "Default>Step>01|0": "stepnumber",
+    "Default>Content|0": "content",
+    "Default>Content>Top|0": "top",
+    "Default>Content>Top>Meet & assess Meet & assess Meet & assess Meet & assess|0": "title",
+    "Default>Content>Top>— session one|0": "sessionlabel",
+    "Default>Content>A free first session to get to know the learner and find exactly where the gaps are.|0": "description"
+   }
+  },
+  "KeyBenefitsCard": {
+   "layerName": "Key Benefits card",
+   "variantNames": [
+    "Default",
+    "Phone"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Icon|0": "icon",
+    "Default>Icon>Icon BG|0": "icon2",
+    "Default>Content|0": "content",
+    "Default>Content>Certified mentors|0": "title",
+    "Default>Content>Real teachers, vetted twice, trained in our method.|0": "description"
+   }
+  },
+  "LevelCard": {
+   "layerName": "Level Card",
+   "variantNames": [
+    "Desktop",
+    "Desktop",
+    "Phone"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Left|0": "left",
+    "Desktop>Left>Icon|0": "icon",
+    "Desktop>Left>Icon>Image|0": "icon2",
+    "Desktop>Left>Content|0": "content",
+    "Desktop>Left>Content>Just starting|0": "title",
+    "Desktop>Left>Content>New to the subject we build the basics first.|0": "description",
+    "Desktop>Right|0": "right",
+    "Desktop>Right>Icon|0": "icon3",
+    "Desktop>Right>Icon>Image|0": "iconborder"
+   }
+  },
+  "Footer": {
+   "layerName": "Footer",
+   "variantNames": [
+    "Desktop",
+    "Tablet",
+    "Phone"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Container|0": "container",
+    "Desktop>Container>Content|0": "content",
+    "Desktop>Container>Content>Top|0": "top",
+    "Desktop>Container>Content>Top>Left|0": "left",
+    "Desktop>Container>Content>Top>Left>Bottom|0": "bottom",
+    "Desktop>Container>Content>Top>Left>Bottom>hello@yourbrand.com|0": "hello-yourbrand-com",
+    "Desktop>Container>Content>Top>Left>Bottom>Open Mon–Sat, 9:00–19:00|0": "text",
+    "Desktop>Container>Content>Top>Left>Bottom>In-center and online, worldwide|0": "text2",
+    "Desktop>Container>Content>Top>Empty Space|0": "empty-space",
+    "Desktop>Container>Content>Top>Right|0": "right",
+    "Desktop>Container>Content>Top>Right>Left|0": "left2",
+    "Desktop>Container>Content>Top>Right>Left>Pages|0": "pages",
+    "Desktop>Container>Content>Top>Right>Left>List|0": "list",
+    "Desktop>Container>Content>Top>Right>Left>List>Left|0": "left3",
+    "Desktop>Container>Content>Top>Right>Left>List>Left>Home|0": "home",
+    "Desktop>Container>Content>Top>Right>Left>List>Left>About|0": "about",
+    "Desktop>Container>Content>Top>Right>Left>List>Left>Programs|0": "programs",
+    "Desktop>Container>Content>Top>Right>Left>List>Left>Mentors|0": "mentors",
+    "Desktop>Container>Content>Top>Right>Left>List>Right|0": "right2",
+    "Desktop>Container>Content>Top>Right>Left>List>Right>Pricing|0": "pricing",
+    "Desktop>Container>Content>Top>Right>Left>List>Right>Contact|0": "contact",
+    "Desktop>Container>Content>Top>Right>Right|0": "right3",
+    "Desktop>Container>Content>Top>Right>Right>Get the latest information on events and educational news|0": "h5",
+    "Desktop>Container>Content>Top>Right>Right>Form|0": "form",
+    "Desktop>Container>Content>Top>Right>Right>Form>Wrap|0": "wrap",
+    "Desktop>Container>Content>Bottom|0": "bottom2",
+    "Desktop>Container>Content>Bottom>Left|0": "left4",
+    "Desktop>Container>Content>Bottom>Left>Designed by Webestica, Powered by Framer|0": "text3",
+    "Desktop>Container>Content>Bottom>Center|0": "center",
+    "Desktop>Container>Content>Bottom>Center>List|0": "list2",
+    "Desktop>Container>Content>Bottom>Right|0": "right4",
+    "Desktop>Container>Content>Bottom>Right>Terms|0": "terms",
+    "Desktop>Container>Content>Bottom>Right>Frame|0": "frame",
+    "Desktop>Container>Content>Bottom>Right>Privacy|0": "privacy",
+    "Desktop>Image|0": "image"
+   }
+  },
+  "AchievementCard": {
+   "layerName": "Achievement Card",
+   "variantNames": [
+    "Default",
+    "Phone"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>2018|0": "number",
+    "Default>Border|0": "border",
+    "Default>The year we started, with 6 learners|0": "title"
+   }
+  },
+  "TeachingCard": {
+   "layerName": "Teaching Card",
+   "variantNames": [
+    "Desktop",
+    "Phone"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Step|0": "step",
+    "Desktop>Step>01|0": "stepnumber",
+    "Desktop>Content|0": "content",
+    "Desktop>Content>Meet & assess|0": "title",
+    "Desktop>Content>Info|0": "info",
+    "Desktop>Content>Info>A free first session to get to know the learner and find exactly where the gaps are.|0": "description"
+   }
+  },
+  "PrinciplesCard": {
+   "layerName": "Principles Card",
+   "variantNames": [
+    "Desktop",
+    "Phone"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Icon|0": "icon",
+    "Desktop>Icon>01|0": "number",
+    "Desktop>Content|0": "content",
+    "Desktop>Content>Just starting|0": "title",
+    "Desktop>Content>New to the subject we build the basics first.|0": "description"
+   }
+  },
+  "SubjectCard": {
+   "layerName": "Subject Card",
+   "variantNames": [
+    "Desktop"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Title|0": "title",
+    "Desktop>Title>Foundations|0": "foundations",
+    "Desktop>Content|0": "content",
+    "Desktop>Content>Number sense|0": "number-sense",
+    "Desktop>Content>List|0": "list"
+   }
+  },
+  "SessionTypeCard": {
+   "layerName": "Session Type Card",
+   "variantNames": [
+    "Default"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Icon BG|0": "icon-bg",
+    "Default>Icon BG>Icon|0": "icon",
+    "Default>Content|0": "content",
+    "Default>Content>Private|0": "private",
+    "Default>Content>A dedicated mentor, fully personal pace. Best for catching up fast or pushing well ahead.|0": "text"
+   }
+  },
+  "TeamExpertise": {
+   "layerName": "Team Expertise",
+   "variantNames": [
+    "Desktop"
+   ],
+   "paths": {
+    "Desktop|0": "desktop"
+   }
+  },
+  "Avatar": {
+   "layerName": "Avatar",
+   "variantNames": [
+    "Default"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Image|0": "image"
+   }
+  },
+  "SessionCard": {
+   "layerName": "Session Card",
+   "variantNames": [
+    "Desktop"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Title|0": "title",
+    "Desktop>Title>Foundations|0": "foundations",
+    "Desktop>Content|0": "content",
+    "Desktop>Content>Number sense|0": "number-sense",
+    "Desktop>Content>List|0": "list",
+    "Desktop>Content>List>Every session opens with something the learner can already do momentum first, new material second.|0": "text"
+   }
+  },
+  "InfoCard": {
+   "layerName": "Info Card",
+   "variantNames": [
+    "Default",
+    "Phone"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>05|0": "shadow",
+    "Default>Teaching|0": "info"
+   }
+  },
+  "CTA": {
+   "layerName": "CTA",
+   "variantNames": [
+    "Desktop",
+    "Tablet",
+    "Phone"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Container|0": "container",
+    "Desktop>Container>Content|0": "content",
+    "Desktop>Container>Content>Top|0": "top",
+    "Desktop>Container>Content>Top>Heading|0": "heading",
+    "Desktop>Container>Content>Top>Heading>Start|0": "start",
+    "Desktop>Container>Content>Top>Heading>learning|0": "learning",
+    "Desktop>Container>Content>Top>Heading>with|0": "with",
+    "Desktop>Container>Content>Top>Heading>Highlight|0": "highlight",
+    "Desktop>Container>Content>Top>Heading>Highlight>confidence|0": "confidence",
+    "Desktop>Container>Content>Top>Heading>Highlight>Top Decor|0": "top-decor",
+    "Desktop>Container>Content>Top>Heading>Highlight>Bottom Decor|0": "bottom-decor",
+    "Desktop>Container>Content>Bottom|0": "bottom",
+    "Desktop>Container>Content>Bottom>Meet a mentor, find your level, and get a personal learning plan no commitment, no card required.|0": "text",
+    "Desktop>Container>Content>Bottom>Button|0": "button",
+    "Desktop>BG Decor|0": "bg-decor",
+    "Desktop>BG Decor>Left|0": "left",
+    "Desktop>BG Decor>Left>BG Shap Image|0": "bg-shap-image",
+    "Desktop>BG Decor>Left>Book|0": "book",
+    "Desktop>BG Decor>Left>Book>BG Shap Image|0": "bg-shap-image2",
+    "Desktop>BG Decor>Left>Book>Image|0": "image",
+    "Desktop>BG Decor>Right|0": "right",
+    "Desktop>BG Decor>Right>BG Shap Image|0": "bg-shap-image3"
+   }
+  },
+  "CTAAbout": {
+   "layerName": "CTA About",
+   "variantNames": [
+    "Desktop",
+    "Tablet",
+    "Phone"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Container|0": "container",
+    "Desktop>Container>Content|0": "content",
+    "Desktop>Container>Content>Top|0": "top",
+    "Desktop>Container>Content>Top>Heading|0": "heading",
+    "Desktop>Container>Content>Top>Heading>Turn|0": "turn",
+    "Desktop>Container>Content>Top>Heading>learning|0": "learning",
+    "Desktop>Container>Content>Top>Heading>into|0": "into",
+    "Desktop>Container>Content>Top>Heading>lasting|0": "lasting",
+    "Desktop>Container>Content>Top>Heading>Highlight|0": "highlight",
+    "Desktop>Container>Content>Top>Heading>Highlight>success|0": "success",
+    "Desktop>Container>Content>Top>Heading>Highlight>Top Decor|0": "top-decor",
+    "Desktop>Container>Content>Top>Heading>Highlight>Bottom Decor|0": "bottom-decor",
+    "Desktop>Container>Content>Bottom|0": "bottom",
+    "Desktop>Container>Content>Bottom>Meet a mentor, find your level, and get a personal learning plan, no commitment, no card required.|0": "text",
+    "Desktop>Container>Content>Bottom>Button|0": "button",
+    "Desktop>BG Decor|0": "bg-decor",
+    "Desktop>BG Decor>Left|0": "left",
+    "Desktop>BG Decor>Left>BG Shap Image|0": "bg-shap-image",
+    "Desktop>BG Decor>Right|0": "right",
+    "Desktop>BG Decor>Right>Top Image|0": "top-image",
+    "Desktop>BG Decor>Right>Bottom Image|0": "bottom-image",
+    "Desktop>BG Color Bottom|0": "bg-color-bottom"
+   }
+  },
+  "CTAProgram": {
+   "layerName": "CTA  Program",
+   "variantNames": [
+    "Desktop",
+    "Tablet",
+    "Phone"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Container|0": "container",
+    "Desktop>Container>Content|0": "content",
+    "Desktop>Container>Content>Top|0": "top",
+    "Desktop>Container>Content>Top>Heading|0": "heading",
+    "Desktop>Container>Content>Top>Heading>Heading|0": "heading2",
+    "Desktop>Container>Content>Top>Heading>Heading>Turn|0": "turn",
+    "Desktop>Container>Content>Top>Heading>Heading>learning|0": "learning",
+    "Desktop>Container>Content>Top>Heading>Heading>Into|0": "into",
+    "Desktop>Container>Content>Top>Heading>Heading>deeper|0": "deeper",
+    "Desktop>Container>Content>Top>Heading>Heading>Highlight|0": "highlight",
+    "Desktop>Container>Content>Top>Heading>Heading>Highlight>understanding|0": "understanding",
+    "Desktop>Container>Content>Top>Heading>Heading>Highlight>Top Decor|0": "top-decor",
+    "Desktop>Container>Content>Top>Heading>Heading>Highlight>Bottom Decor|0": "bottom-decor",
+    "Desktop>Container>Content>Top>Description|0": "description",
+    "Desktop>Container>Content>Top>Description>Start with a free session, meet your tutor, find the right level, and get a plan.|0": "text",
+    "Desktop>Container>Content>Top>Description>Button|0": "button",
+    "Desktop>Container>Content>Bottom|0": "bottom",
+    "Desktop>Container>Content>Bottom>Left|0": "left",
+    "Desktop>Container>Content>Bottom>Left>Left|0": "left2",
+    "Desktop>Container>Content>Bottom>Left>Left>Avatar|0": "avatar",
+    "Desktop>Container>Content>Bottom>Left>Right|0": "right",
+    "Desktop>Container>Content>Bottom>Left>Right>Image|0": "image",
+    "Desktop>Container>Content>Bottom>Left>Right>4.9 / 5 Based on 200+ reviews|0": "text2",
+    "Desktop>Container>Content>Bottom>Line|0": "line",
+    "Desktop>Container>Content>Bottom>Right|0": "right2",
+    "Desktop>BG Decor|0": "bg-decor",
+    "Desktop>BG Decor>Left|0": "left3",
+    "Desktop>BG Decor>Left>BG Shap Image|0": "bg-shap-image",
+    "Desktop>BG Decor>Right|0": "right3",
+    "Desktop>BG Decor>Right>Top Image|0": "top-image",
+    "Desktop>BG Decor>Right>Bottom Image|0": "bottom-image",
+    "Desktop>BG Color Bottom|0": "bg-color-bottom"
+   }
+  },
+  "CTAMentor": {
+   "layerName": "CTA Mentor",
+   "variantNames": [
+    "Desktop",
+    "Tablet",
+    "Phone"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Container|0": "container",
+    "Desktop>Container>Content|0": "content",
+    "Desktop>Container>Content>Top|0": "top",
+    "Desktop>Container>Content>Top>Heading|0": "heading",
+    "Desktop>Container>Content>Top>Heading>Heading|0": "heading2",
+    "Desktop>Container>Content>Top>Heading>Heading>Meet|0": "title",
+    "Desktop>Container>Content>Top>Heading>Heading>Maya|0": "maya",
+    "Desktop>Container>Content>Top>Heading>Heading>for|0": "for",
+    "Desktop>Container>Content>Top>Heading>Heading>Highlight|0": "highlight",
+    "Desktop>Container>Content>Top>Heading>Heading>Highlight>free|0": "free",
+    "Desktop>Container>Content>Top>Heading>Heading>Highlight>Top Decor|0": "top-decor",
+    "Desktop>Container>Content>Top>Heading>Heading>Highlight>Bottom Decor|0": "bottom-decor",
+    "Desktop>Container>Content>Top>Heading>Heading>anytime|0": "anytime",
+    "Desktop>Container>Content>Top>Description|0": "description",
+    "Desktop>Container>Content>Top>Description>Your first session is completely free, No hidden fees, no pressure, no strings attached. Walk away with a personalised learning plan built around your child's goals and learning style.|0": "text",
+    "Desktop>Container>Content>Bottom|0": "bottom",
+    "Desktop>Container>Content>Bottom>Left|0": "left",
+    "Desktop>Container>Content>Bottom>Left>Left|0": "left2",
+    "Desktop>Container>Content>Bottom>Left>Left>Icon|0": "icon",
+    "Desktop>Container>Content>Bottom>Left>Left>Icon>Image|0": "image",
+    "Desktop>Container>Content>Bottom>Left>Right|0": "right",
+    "Desktop>Container>Content>Bottom>Left>Right>Book your free intro session|0": "h4",
+    "Desktop>Container>Content>Bottom>Left>Right>Info|0": "info",
+    "Desktop>Container>Content>Bottom>Left>Right>Info>15-30 min|0": "n-15-30-min",
+    "Desktop>Container>Content>Bottom>Left>Right>Info>Frame|0": "frame",
+    "Desktop>Container>Content>Bottom>Left>Right>Info>One-on-one|0": "one-on-one",
+    "Desktop>Container>Content>Bottom>Line|0": "line",
+    "Desktop>Container>Content>Bottom>Right|0": "right2",
+    "Desktop>BG Decor|0": "bg-decor",
+    "Desktop>BG Decor>Left|0": "left3",
+    "Desktop>BG Decor>Left>Image|0": "image2",
+    "Desktop>BG Decor>Right|0": "right3",
+    "Desktop>BG Decor>Right>Image|0": "image3"
+   }
+  },
+  "ContactFormButton": {
+   "layerName": "Contact Form Button",
+   "variantNames": [
+    "Default",
+    "Default",
+    "Loading",
+    "Default",
+    "Disabled",
+    "Success",
+    "Error",
+    "Phone"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Content|0": "content",
+    "Default>Content>Send request|0": "send-request",
+    "Default>Spinner|0": "spinner",
+    "Default>Spinner>Conic|0": "conic",
+    "Default>Spinner>Conic>Rounding|0": "rounding"
+   }
+  },
+  "SectionDecor": {
+   "layerName": "Section Decor",
+   "variantNames": [
+    "Default",
+    "Green",
+    "Gray",
+    "Light Green"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Decor|0": "decor"
+   }
+  },
+  "FounderCard": {
+   "layerName": "Founder Card",
+   "variantNames": [
+    "Desktop",
+    "Desktop",
+    "Tablet",
+    "Phone"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Left|0": "left",
+    "Desktop>Left>Image|0": "image",
+    "Desktop>Right|0": "right",
+    "Desktop>Right>Content|0": "content",
+    "Desktop>Right>Content>Top|0": "top",
+    "Desktop>Right>Content>Top>Pre Title|0": "pre-title",
+    "Desktop>Right>Content>Top>Pre Title>Dot|0": "dot",
+    "Desktop>Right>Content>Top>Pre Title>Dot>Done|0": "done",
+    "Desktop>Right>Content>Top>Pre Title>Title|0": "title",
+    "Desktop>Right>Content>Top>Pre Title>Title>Sbject|0": "sbject",
+    "Desktop>Right>Content>Top>Pre Title>Title>•|0": "item",
+    "Desktop>Right>Content>Top>Pre Title>Title>Role|0": "role",
+    "Desktop>Right>Content>Top>Maya Chen|0": "maya-chen",
+    "Desktop>Right>Content>Bottom|0": "bottom",
+    "Desktop>Right>Content>Bottom>Former school math teacher with 9 years turning \"I hate math\" into \"Wait, that's it?\"|0": "text",
+    "Desktop>Right>Button|0": "button",
+    "Desktop>Right>Button>Content|0": "content2",
+    "Desktop>Right>Button>Content>Get more detail|0": "get-more-detail"
+   }
+  },
+  "ButtonIcon": {
+   "layerName": "Button Icon",
+   "variantNames": [
+    "Desktop",
+    "Desktop",
+    "Phone"
+   ],
+   "paths": {
+    "Desktop|0": "desktop",
+    "Desktop>Content|0": "content",
+    "Desktop>Content>Text|0": "text",
+    "Desktop>Content>Text>Explore all|0": "buttontext",
+    "Desktop>Content>Text>Bottom Line|0": "bottom-line",
+    "Desktop>Content>Right|0": "right",
+    "Desktop>Content>Right>Icon|0": "icon"
+   }
+  },
+  "FooterSubscribeFormButton": {
+   "layerName": "Footer Subscribe Form Button",
+   "variantNames": [
+    "Default",
+    "Default",
+    "Loading",
+    "Disabled",
+    "Success",
+    "Error",
+    "Phone"
+   ],
+   "paths": {
+    "Default|0": "default",
+    "Default>Default Icon|0": "default-icon",
+    "Default>Hover Icon|0": "hover-icon",
+    "Default>Spinner|0": "spinner",
+    "Default>Spinner>Conic|0": "conic",
+    "Default>Spinner>Conic>Rounding|0": "rounding"
+   }
+  }
+ }
+}

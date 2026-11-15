@@ -1,0 +1,40 @@
+.default {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px 6px 0px;
+  width: 465px;
+  height: fit-content;
+  border-style: solid;
+  border-color: var(--color-white-10);
+  border-width: 0px 0px 1px 0px;
+}
+
+.number {
+  width: fit-content;
+  height: fit-content;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 0px 0px 20px;
+  width: 100%;
+  height: fit-content;
+}
+
+.title {
+  width: 100%;
+  height: fit-content;
+}
+
+/* variant: Flip */
+
+.default[data-variant="Flip"] .info {
+  justify-content: flex-start;
+  padding: 0px 20px 0px 0px;
+}

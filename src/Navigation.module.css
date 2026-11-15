@@ -1,0 +1,372 @@
+.desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0px 20px 0px;
+  width: 1200px;
+  height: fit-content;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 30px 0px 30px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1460px;
+  z-index: 2;
+}
+
+.grid-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+  width: 100%;
+  height: fit-content;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: fit-content;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  height: fit-content;
+}
+
+.home {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.about {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.program {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.mentor {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.contact {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: fit-content;
+}
+
+.menu-button {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 42px;
+  height: 42px;
+  aspect-ratio: 1;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--color-dark-pine-green);
+  border-style: solid;
+  border-color: var(--color-sage-green);
+  border-width: 1px;
+}
+
+.n-01 {
+  width: 22px;
+  height: 2px;
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: var(--color-white);
+}
+
+.n-02 {
+  width: 22px;
+  height: 2px;
+  position: absolute;
+  bottom: 17px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: var(--color-white);
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+  background-color: var(--color-deep-forest-green-70);
+}
+
+/* variant: Tablet - Close */
+
+.desktop[data-variant="Tablet - Close"] {
+  padding: 10px 0px 14px 0px;
+  width: 810px;
+  background-color: var(--color-ivory-cream);
+}
+
+.desktop[data-variant="Tablet - Close"] .container {
+  z-index: 1;
+}
+
+.desktop[data-variant="Tablet - Close"] .left {
+  align-items: flex-start;
+}
+
+.desktop[data-variant="Tablet - Close"] .center {
+  display: none;
+}
+
+.desktop[data-variant="Tablet - Close"] .menu-button {
+  display: flex;
+}
+
+.desktop[data-variant="Tablet - Close"] .n-01 {
+  position: initial;
+  top: initial;
+  left: initial;
+  transform: initial;
+}
+
+.desktop[data-variant="Tablet - Close"] .n-02 {
+  position: initial;
+  bottom: initial;
+  left: initial;
+  transform: initial;
+}
+
+/* variant: Tablet - Open */
+
+.desktop[data-variant="Tablet - Open"] {
+  padding: 10px 0px 14px 0px;
+  width: 810px;
+  background-color: var(--color-ivory-cream);
+}
+
+.desktop[data-variant="Tablet - Open"] .container {
+  z-index: 1;
+}
+
+.desktop[data-variant="Tablet - Open"] .grid-nav {
+  z-index: 2;
+}
+
+.desktop[data-variant="Tablet - Open"] .center {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 30px 14px 30px;
+  z-index: 2;
+  background-color: var(--color-ivory-cream);
+  width: initial;
+}
+
+.desktop[data-variant="Tablet - Open"] .home {
+  text-align: initial;
+}
+
+.desktop[data-variant="Tablet - Open"] .about {
+  text-align: initial;
+}
+
+.desktop[data-variant="Tablet - Open"] .program {
+  text-align: initial;
+}
+
+.desktop[data-variant="Tablet - Open"] .mentor {
+  text-align: initial;
+}
+
+.desktop[data-variant="Tablet - Open"] .contact {
+  text-align: initial;
+}
+
+.desktop[data-variant="Tablet - Open"] .menu-button {
+  display: flex;
+}
+
+.desktop[data-variant="Tablet - Open"] .n-01 {
+  width: 20px;
+  transform: rotate(-45deg);
+  z-index: 1;
+  position: initial;
+  top: initial;
+  left: initial;
+}
+
+.desktop[data-variant="Tablet - Open"] .n-02 {
+  width: 20px;
+  transform: rotate(45deg);
+  z-index: 1;
+  position: initial;
+  bottom: initial;
+  left: initial;
+}
+
+.desktop[data-variant="Tablet - Open"] .overlay {
+  width: initial;
+  opacity: initial;
+}
+
+/* variant: Phone - Close */
+
+.desktop[data-variant="Phone - Close"] {
+  padding: 10px 0px 14px 0px;
+  width: 390px;
+  background-color: var(--color-ivory-cream);
+}
+
+.desktop[data-variant="Phone - Close"] .container {
+  padding: 0px 20px 0px 20px;
+  z-index: 1;
+}
+
+.desktop[data-variant="Phone - Close"] .left {
+  align-items: flex-start;
+}
+
+.desktop[data-variant="Phone - Close"] .center {
+  display: none;
+  z-index: 1;
+}
+
+.desktop[data-variant="Phone - Close"] .menu-button {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  aspect-ratio: initial;
+}
+
+.desktop[data-variant="Phone - Close"] .n-01 {
+  width: 16px;
+  position: initial;
+  top: initial;
+  left: initial;
+  transform: initial;
+}
+
+.desktop[data-variant="Phone - Close"] .n-02 {
+  width: 16px;
+  position: initial;
+  bottom: initial;
+  left: initial;
+  transform: initial;
+}
+
+/* variant: Phone - Open */
+
+.desktop[data-variant="Phone - Open"] {
+  padding: 10px 0px 14px 0px;
+  width: 390px;
+  background-color: var(--color-ivory-cream);
+}
+
+.desktop[data-variant="Phone - Open"] .container {
+  padding: 0px 20px 0px 20px;
+  z-index: 1;
+}
+
+.desktop[data-variant="Phone - Open"] .center {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+  z-index: 2;
+  background-color: var(--color-ivory-cream);
+  width: initial;
+}
+
+.desktop[data-variant="Phone - Open"] .home {
+  text-align: initial;
+}
+
+.desktop[data-variant="Phone - Open"] .about {
+  text-align: initial;
+}
+
+.desktop[data-variant="Phone - Open"] .program {
+  text-align: initial;
+}
+
+.desktop[data-variant="Phone - Open"] .mentor {
+  text-align: initial;
+}
+
+.desktop[data-variant="Phone - Open"] .contact {
+  text-align: initial;
+}
+
+.desktop[data-variant="Phone - Open"] .menu-button {
+  display: flex;
+  width: 34px;
+  height: 34px;
+}
+
+.desktop[data-variant="Phone - Open"] .n-01 {
+  width: 16px;
+  transform: rotate(-45deg);
+  z-index: 1;
+  position: initial;
+  top: initial;
+  left: initial;
+}
+
+.desktop[data-variant="Phone - Open"] .n-02 {
+  width: 16px;
+  transform: rotate(45deg);
+  z-index: 1;
+  position: initial;
+  bottom: initial;
+  left: initial;
+}
+
+.desktop[data-variant="Phone - Open"] .overlay {
+  width: initial;
+  opacity: initial;
+}

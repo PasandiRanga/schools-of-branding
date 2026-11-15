@@ -1,0 +1,143 @@
+.default {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 30px 16px 30px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  overflow: hidden;
+  background-color: var(--color-dark-pine-green);
+  border-style: solid;
+  border-color: var(--color-sage-green);
+  border-width: 1px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.buttontext {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+/* variant: Default */
+
+.default:hover {
+  background-color: var(--color-deep-orange);
+}
+
+.default:hover .buttontext {
+  color: var(--color-slate-green);
+}
+
+/* variant: Primary */
+
+.default[data-variant="Primary"] {
+  background-color: var(--color-burnt-orange);
+  border-color: var(--color-terracotta-brown);
+}
+
+.default[data-variant="Primary"] .buttontext {
+  color: var(--color-slate-green);
+}
+
+/* variant: Primary */
+
+.default:hover {
+  background-color: var(--color-deep-orange);
+  border-color: var(--color-terracotta-brown);
+}
+
+.default:hover .buttontext {
+  color: var(--color-slate-green);
+}
+
+/* variant: White */
+
+.default[data-variant="White"] {
+  background-color: var(--color-ivory-cream);
+  border-color: var(--color-dark-pine-green);
+}
+
+.default[data-variant="White"] .buttontext {
+  color: var(--color-slate-green);
+}
+
+/* variant: White */
+
+.default:hover {
+  background-color: var(--color-white);
+  border-color: var(--color-dark-pine-green);
+}
+
+.default:hover .buttontext {
+  color: var(--color-slate-green);
+}
+
+/* variant: Nav */
+
+.default[data-variant="Nav"] {
+  padding: 12px 30px 12px 30px;
+}
+
+/* variant: Nav */
+
+.default:hover {
+  padding: 12px 30px 12px 30px;
+  background-color: var(--color-deep-forest-green);
+}
+
+/* variant: Nav - Phone */
+
+.default[data-variant="Nav - Phone"] {
+  padding: 10px 30px 10px 30px;
+}
+
+/* variant: Primary - Phone */
+
+.default[data-variant="Primary - Phone"] {
+  padding: 10px 30px 10px 30px;
+  background-color: var(--color-burnt-orange);
+  border-color: var(--color-terracotta-brown);
+}
+
+.default[data-variant="Primary - Phone"] .buttontext {
+  color: var(--color-slate-green);
+}
+
+/* variant: White - Phone */
+
+.default[data-variant="White - Phone"] {
+  padding: 10px 30px 10px 30px;
+  background-color: var(--color-ivory-cream);
+  border-color: var(--color-dark-pine-green);
+}
+
+.default[data-variant="White - Phone"] .buttontext {
+  color: var(--color-slate-green);
+}
+
+/* variant: Phone */
+
+.default[data-variant="Phone"] {
+  padding: 10px 30px 10px 30px;
+}
+
+/* responsive: Phone */
+
+@media (max-width: 809px) {
+  .default {
+    padding: 10px 30px 10px 30px;
+  }
+}

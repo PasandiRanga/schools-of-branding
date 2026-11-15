@@ -1,0 +1,62 @@
+.desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: var(--color-transparent);
+}
+
+.icon {
+  width: 24px;
+  height: auto;
+  position: absolute;
+  left: 9px;
+  top: 47%;
+  transform: translateY(-50%);
+  overflow: hidden;
+  display: block;
+}
+
+/* variant: Desktop */
+
+.desktop:hover {
+  background-color: var(--color-burnt-orange);
+}
+
+.desktop:hover .icon {
+  height: fit-content;
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+  display: initial;
+}
+
+/* variant: Phone */
+
+.desktop[data-variant="Phone"] .icon {
+  height: fit-content;
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+  display: initial;
+}
+
+/* responsive: Phone */
+
+@media (max-width: 809px) {
+  .icon {
+    height: fit-content;
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+    display: initial;
+  }
+}

@@ -1,0 +1,38 @@
+.default {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 30px 20px 30px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.shadow {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.info {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* variant: Phone */
+
+.default[data-variant="Phone"] {
+  padding: 20px;
+}
+
+/* responsive: Phone */
+
+@media (max-width: 809px) {
+  .default {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,70 @@
+/* =====================================================================
+   Schools of Branding — Design Tokens
+   Derived from the logo: blue (#1B75BC), yellow (#FBC80B), black.
+   Warm, rounded, editorial system inspired by the BrightPath layout.
+   ===================================================================== */
+
+:root {
+  /* ---- Brand core ---- */
+  --blue: #1b75bc; /* logo blue */
+  --blue-ink: #0e4e86; /* deep blue for headings / dark surfaces */
+  --blue-700: #155e97;
+  --blue-300: #7bb4e3;
+  --blue-100: #e5f0fa; /* pastel blue card tint */
+  --sage-green: #497e64;
+
+  --yellow: #fbc80b; /* logo yellow */
+  --yellow-deep: #f0b400;
+  --yellow-100: #fdf1c8; /* pastel yellow card tint */
+
+  --ink: #141b24; /* near-black text (warm) */
+  --ink-soft: #46515d; /* body copy */
+  --ink-faint: #7b8794; /* muted labels */
+
+  /* ---- Surfaces ---- */
+  --paper: #f6f2e9; /* warm page background */
+  --paper-2: #efe9db; /* banded section background */
+  --card: #ffffff;
+  --sky-100: #eaf1f6; /* neutral cool card tint */
+  --cream-100: #f3ecdd; /* neutral warm card tint */
+  --line: #e4ddcd; /* hairline borders on paper */
+  --line-card: #ececec;
+
+  /* ---- Accent pastels for program cards (rotating) ---- */
+  --tint-blue: #e5f0fa;
+  --tint-yellow: #fdf1c8;
+  --tint-sky: #e7eef4;
+  --tint-sun: #fbe7a6;
+
+  /* ---- Typography ---- */
+  --font-sans: "Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system,
+    sans-serif;
+  --font-display: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+
+  --fs-eyebrow: 0.8125rem;
+  --fs-body: 1.0625rem;
+  --fs-lead: 1.25rem;
+  --fs-h3: clamp(1.25rem, 1rem + 1.1vw, 1.6rem);
+  --fs-h2: clamp(2rem, 1.3rem + 3vw, 3.75rem);
+  --fs-display: clamp(2.75rem, 1.2rem + 6.2vw, 6rem);
+
+  /* ---- Radius ---- */
+  --r-sm: 10px;
+  --r-md: 18px;
+  --r-lg: 28px;
+  --r-xl: 40px;
+  --r-pill: 999px;
+
+  /* ---- Shadow ---- */
+  --shadow-sm: 0 2px 10px rgba(20, 27, 36, 0.06);
+  --shadow-md: 0 14px 40px rgba(20, 27, 36, 0.1);
+  --shadow-lg: 0 30px 70px rgba(14, 78, 134, 0.14);
+
+  /* ---- Layout ---- */
+  --maxw: 1200px;
+  --gutter: clamp(1.1rem, 4vw, 2.5rem);
+  --section-y: clamp(3.5rem, 7vw, 7rem);
+
+  /* ---- Motion ---- */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}

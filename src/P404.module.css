@@ -1,0 +1,332 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-ivory-cream);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 50%;
+  top: 28%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 166px 0px 0px 0px;
+  width: 100%;
+  height: fit-content;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 30px 0px 30px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1460px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 0px 100px 0px;
+  width: 100%;
+  height: fit-content;
+  max-width: 760px;
+  z-index: 1;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.n-4 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.n-0 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.n-42 {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.decor {
+  width: auto;
+  height: 114px;
+  z-index: 0;
+  overflow: hidden;
+  display: block;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: fit-content;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: fit-content;
+  max-width: 700px;
+}
+
+.this-page-skipped-class {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  height: fit-content;
+}
+
+.decor-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.bottom-left {
+  width: auto;
+  height: 154px;
+  z-index: 0;
+  display: block;
+}
+
+.top-right {
+  width: auto;
+  height: 152px;
+  z-index: 0;
+  display: block;
+}
+
+.book-image {
+  width: auto;
+  height: 154px;
+  z-index: 0;
+  display: block;
+}
+
+.bottom-decor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 90px 0px 0px 0px;
+  width: 100%;
+  height: fit-content;
+}
+
+.image {
+  width: auto;
+  height: 154px;
+  z-index: 0;
+  overflow: hidden;
+  display: block;
+}
+
+/* breakpoint: Tablet */
+
+@media (max-width: 1199px) {
+  .main {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .hero {
+    padding: 150px 0px 0px 0px;
+  }
+
+  .decor {
+    width: fit-content;
+    height: 90px;
+    background-image: url("https://framerusercontent.com/images/XKbNUbQQv66iIbIItzcdYqmAg5s.svg");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .bottom {
+    gap: 20px;
+  }
+
+  .description {
+    gap: 10px;
+  }
+
+  .bottom-left {
+    width: fit-content;
+    background-image: url("https://framerusercontent.com/images/fIdqSNtpJiODFBlM4l0vJDiTDI.png");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .top-right {
+    width: fit-content;
+    background-image: url("https://framerusercontent.com/images/kwG52r8TfCBCtzlJBZJgt3arOk.png");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .book-image {
+    width: fit-content;
+    background-image: url("https://framerusercontent.com/images/KGhIo0IIWIogqcO4d9R13nH8N8.png");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .bottom-decor {
+    padding: 70px 0px 0px 0px;
+  }
+
+  .image {
+    width: fit-content;
+    height: 130px;
+    background-image: url("https://framerusercontent.com/images/IVSSsRccYeDfFBM2G9r5cicE4Fc.png");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 809px) {
+  .main {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .hero {
+    padding: 120px 0px 0px 0px;
+  }
+
+  .content {
+    padding: 0px 0px 80px 0px;
+  }
+
+  .decor {
+    width: fit-content;
+    height: 90px;
+    background-image: url("https://framerusercontent.com/images/XKbNUbQQv66iIbIItzcdYqmAg5s.svg");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .bottom {
+    gap: 20px;
+  }
+
+  .description {
+    gap: 10px;
+  }
+
+  .decor-image {
+    display: none;
+  }
+
+  .bottom-left {
+    width: fit-content;
+    background-image: url("https://framerusercontent.com/images/fIdqSNtpJiODFBlM4l0vJDiTDI.png");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .top-right {
+    width: fit-content;
+    height: 140px;
+    background-image: url("https://framerusercontent.com/images/kwG52r8TfCBCtzlJBZJgt3arOk.png");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .book-image {
+    width: fit-content;
+    display: none;
+    background-image: url("https://framerusercontent.com/images/KGhIo0IIWIogqcO4d9R13nH8N8.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bottom-decor {
+    padding: 20px 0px 0px 0px;
+  }
+
+  .image {
+    width: fit-content;
+    height: 80px;
+    background-image: url("https://framerusercontent.com/images/IVSSsRccYeDfFBM2G9r5cicE4Fc.png");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+}

@@ -1,0 +1,73 @@
+.default {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 30px 16px 30px;
+  width: 146px;
+  height: fit-content;
+  border-radius: 100px;
+  overflow: hidden;
+  background-color: var(--color-sage-green);
+  border-style: solid;
+  border-color: var(--color-black);
+  border-width: 1px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: fit-content;
+}
+
+.contact-us {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+/* variant: Gray */
+
+.default[data-variant="Gray"] {
+  background-color: var(--color-warm-beige);
+  border-color: var(--color-dark-pine-green);
+}
+
+/* variant: Default */
+
+.default:hover {
+  background-color: var(--color-burnt-orange);
+}
+
+/* variant: Gray */
+
+.default:hover {
+  background-color: var(--color-white);
+  border-color: var(--color-dark-pine-green);
+}
+
+/* variant: Phone */
+
+.default[data-variant="Phone"] {
+  padding: 10px 30px 10px 30px;
+}
+
+/* variant: Phone - Gray */
+
+.default[data-variant="Phone - Gray"] {
+  padding: 10px 30px 10px 30px;
+  background-color: var(--color-warm-beige);
+  border-color: var(--color-dark-pine-green);
+}
+
+/* responsive: Phone */
+
+@media (max-width: 809px) {
+  .default {
+    padding: 10px 30px 10px 30px;
+  }
+}

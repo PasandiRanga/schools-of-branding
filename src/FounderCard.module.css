@@ -1,0 +1,257 @@
+.desktop {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 30px;
+  width: 600px;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 0px 50px 0px;
+  height: fit-content;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  height: fit-content;
+}
+
+.pre-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 20px 6px 20px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: var(--color-soft-blush-pink);
+}
+
+.dot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.done {
+  width: 6px;
+  height: 6px;
+  aspect-ratio: 1;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: var(--color-burnt-orange);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.sbject {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.item {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.role {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.maya-chen {
+  width: 100%;
+  height: fit-content;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  height: fit-content;
+}
+
+.text {
+  width: 100%;
+  height: fit-content;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 30px 16px 30px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  overflow: hidden;
+  background-color: var(--color-ivory-cream);
+  border-style: solid;
+  border-color: var(--color-dark-pine-green);
+  border-width: 1px;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  height: fit-content;
+  z-index: 2;
+}
+
+.get-more-detail {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* variant: Tablet */
+
+.desktop[data-variant="Tablet"] {
+  padding: 10px;
+}
+
+.desktop[data-variant="Tablet"] .right {
+  gap: 20px;
+}
+
+.desktop[data-variant="Tablet"] .button {
+  padding: 10px 30px 10px 30px;
+}
+
+/* variant: Phone */
+
+.desktop[data-variant="Phone"] {
+  grid-template-columns: repeat(1, 1fr);
+  padding: 10px;
+  width: 360px;
+}
+
+.desktop[data-variant="Phone"] .image {
+  height: fit-content;
+}
+
+.desktop[data-variant="Phone"] .right {
+  gap: 20px;
+}
+
+.desktop[data-variant="Phone"] .content {
+  gap: 20px;
+  padding: 0px 0px 20px 0px;
+}
+
+.desktop[data-variant="Phone"] .button {
+  padding: 10px 30px 10px 30px;
+}
+
+/* responsive: Tablet */
+
+@media (max-width: 1199px) {
+  .desktop {
+    padding: 10px;
+  }
+
+  .right {
+    gap: 20px;
+  }
+
+  .button {
+    padding: 10px 30px 10px 30px;
+  }
+}
+
+/* responsive: Phone */
+
+@media (max-width: 809px) {
+  .desktop {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+    width: 360px;
+  }
+
+  .image {
+    height: fit-content;
+  }
+
+  .right {
+    gap: 20px;
+  }
+
+  .content {
+    gap: 20px;
+    padding: 0px 0px 20px 0px;
+  }
+
+  .button {
+    padding: 10px 30px 10px 30px;
+  }
+}

@@ -1,0 +1,93 @@
+.default {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  width: 238px;
+  height: fit-content;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 5px 0px 0px 0px;
+  width: 18px;
+  height: 18px;
+  aspect-ratio: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.icon2 {
+  gap: 10px;
+  width: 18px;
+  height: 45px;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 160%;
+  transform: translateX(-50%) translateY(-50%);
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: fit-content;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.description {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+/* variant: Phone */
+
+.default[data-variant="Phone"] .icon {
+  padding: 3px 0px 0px 0px;
+}
+
+.default[data-variant="Phone"] .icon2 {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.default[data-variant="Phone"] .content {
+  gap: 4px;
+}
+
+/* responsive: Phone */
+
+@media (max-width: 809px) {
+  .icon {
+    padding: 3px 0px 0px 0px;
+  }
+
+  .icon2 {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .content {
+    gap: 4px;
+  }
+}

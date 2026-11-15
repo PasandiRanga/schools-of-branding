@@ -1,0 +1,30 @@
+/* Generated from Framer colour styles. */
+@import url("https://fonts.googleapis.com/css2?family=Instrument%20Sans:wght@400;500;600;700&family=Bricolage%20Grotesque:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Instrument Sans", sans-serif;
+}
+:root {
+  --color-black: rgb(0, 0, 0);
+  --color-burnt-orange: rgb(232, 114, 44);
+  --color-dark-pine-green: rgb(27, 52, 40);
+  --color-deep-forest-green: rgb(20, 38, 29);
+  --color-deep-forest-green-10: rgba(20, 38, 29, 0.1);
+  --color-deep-forest-green-20: rgba(20, 38, 29, 0.2);
+  --color-deep-forest-green-70: rgba(20, 38, 29, 0.7);
+  --color-deep-orange: rgb(207, 97, 12);
+  --color-dusty-blue: rgb(84, 136, 178);
+  --color-ivory-cream: rgb(244, 240, 229);
+  --color-ivory-cream-20: rgba(244, 240, 229, 0.2);
+  --color-olive-sage: rgb(160, 175, 100);
+  --color-peach-cream: rgb(249, 216, 192);
+  --color-powder-blue: rgb(201, 224, 242);
+  --color-sage-green: rgb(73, 126, 100);
+  --color-slate-green: rgb(69, 86, 75);
+  --color-soft-blush-pink: rgb(246, 215, 232);
+  --color-soft-lime-green: rgb(214, 229, 154);
+  --color-terracotta-brown: rgb(178, 110, 69);
+  --color-transparent: rgba(0, 0, 0, 0);
+  --color-warm-beige: rgb(234, 228, 211);
+  --color-white: rgb(255, 255, 255);
+  --color-white-10: rgba(255, 255, 255, 0.1);
+}

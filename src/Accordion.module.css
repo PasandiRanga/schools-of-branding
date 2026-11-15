@@ -1,0 +1,213 @@
+.close-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 700px;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--color-white);
+  border-style: solid;
+  border-color: var(--color-deep-forest-green-20);
+  border-width: 1px;
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 24px 30px 24px 30px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.h5 {
+  width: 100%;
+  height: fit-content;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  width: 38px;
+  height: 38px;
+  aspect-ratio: 1;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--color-powder-blue);
+  border-style: solid;
+  border-color: var(--color-dusty-blue);
+  border-width: 1px;
+}
+
+.divider {
+  width: 16px;
+  height: 2px;
+  position: absolute;
+  left: 47%;
+  top: 49%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: var(--color-deep-forest-green);
+}
+
+.divider2 {
+  width: 2px;
+  height: 16px;
+  position: absolute;
+  left: 47%;
+  top: 49%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: var(--color-deep-forest-green);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  height: 1px;
+  position: relative;
+  overflow: hidden;
+}
+
+.answer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0px 30px 30px;
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  overflow: hidden;
+}
+
+.text {
+  width: 100%;
+  height: fit-content;
+  max-width: 600px;
+}
+
+/* variant: Open - Desktop */
+
+.close-desktop[data-variant="Open - Desktop"] .question {
+  padding: 24px 30px 20px 30px;
+}
+
+.close-desktop[data-variant="Open - Desktop"] .icon {
+  background-color: var(--color-soft-lime-green);
+  border-color: var(--color-olive-sage);
+}
+
+.close-desktop[data-variant="Open - Desktop"] .divider {
+  transform: rotate(180deg);
+  position: initial;
+  left: initial;
+  top: initial;
+}
+
+.close-desktop[data-variant="Open - Desktop"] .divider2 {
+  transform: rotate(90deg);
+  position: initial;
+  left: initial;
+  top: initial;
+}
+
+.close-desktop[data-variant="Open - Desktop"] .bottom {
+  height: fit-content;
+  position: initial;
+}
+
+.close-desktop[data-variant="Open - Desktop"] .answer {
+  padding: 0px 30px 24px 30px;
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+/* variant: Close - Phone */
+
+.close-desktop[data-variant="Close - Phone"] .question {
+  padding: 10px 20px 10px 20px;
+}
+
+.close-desktop[data-variant="Close - Phone"] .divider {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.close-desktop[data-variant="Close - Phone"] .divider2 {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.close-desktop[data-variant="Close - Phone"] .answer {
+  padding: 20px 0px 12px 20px;
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+/* variant: Open - Phone */
+
+.close-desktop[data-variant="Open - Phone"] .question {
+  padding: 14px 20px 10px 20px;
+}
+
+.close-desktop[data-variant="Open - Phone"] .icon {
+  background-color: var(--color-soft-lime-green);
+  border-color: var(--color-olive-sage);
+}
+
+.close-desktop[data-variant="Open - Phone"] .divider {
+  transform: rotate(180deg);
+  position: initial;
+  left: initial;
+  top: initial;
+}
+
+.close-desktop[data-variant="Open - Phone"] .divider2 {
+  transform: rotate(90deg);
+  position: initial;
+  left: initial;
+  top: initial;
+}
+
+.close-desktop[data-variant="Open - Phone"] .bottom {
+  height: fit-content;
+  position: initial;
+}
+
+.close-desktop[data-variant="Open - Phone"] .answer {
+  padding: 0px 30px 14px 20px;
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}

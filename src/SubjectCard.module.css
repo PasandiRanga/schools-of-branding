@@ -1,0 +1,57 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 34px;
+  padding: 30px 30px 30px 30px;
+  width: 360px;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--color-ivory-cream);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 12px 20px 12px 20px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.foundations {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  height: fit-content;
+}
+
+.number-sense {
+  width: 100%;
+  height: fit-content;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}

@@ -1,0 +1,10 @@
+.desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 999px;
+  height: fit-content;
+}

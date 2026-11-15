@@ -1,0 +1,9 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 800px;
+  height: fit-content;
+}

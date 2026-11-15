@@ -1,0 +1,52 @@
+.default {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 1200px;
+  height: 90px;
+  position: relative;
+}
+
+.decor {
+  height: 76px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 0;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/VHNdEScn8WABzEyDGozGpRGE6X0.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* variant: Green */
+
+.default[data-variant="Green"] .decor {
+  background-image: url("https://framerusercontent.com/images/e0RFUXuTyEKNWX7rBss5hDNUvQ.svg");
+  position: initial;
+  right: initial;
+  bottom: initial;
+  left: initial;
+}
+
+/* variant: Gray */
+
+.default[data-variant="Gray"] .decor {
+  background-image: url("https://framerusercontent.com/images/Gs4oYCae5IMouFY2S2iiOM1YJeQ.svg");
+  position: initial;
+  right: initial;
+  bottom: initial;
+  left: initial;
+}
+
+/* variant: Light Green */
+
+.default[data-variant="Light Green"] .decor {
+  background-image: url("https://framerusercontent.com/images/7zv2VrxsbuiQOtfU00fIbVQ7p5I.svg");
+  position: initial;
+  right: initial;
+  bottom: initial;
+  left: initial;
+}

@@ -1,0 +1,115 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 100px;
+  padding: 40px 30px 30px 30px;
+  width: 400px;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--color-ivory-cream);
+  border-style: solid;
+  border-color: var(--color-deep-forest-green-20);
+  border-width: 0px 0px 1px 0px;
+}
+
+.step {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  aspect-ratio: 1;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.stepnumber {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  height: fit-content;
+}
+
+.title {
+  width: 100%;
+  height: fit-content;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 0px 0px 0px;
+  width: 100%;
+  height: fit-content;
+}
+
+.description {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+/* variant: Phone */
+
+.desktop[data-variant="Phone"] {
+  padding: 20px;
+}
+
+.desktop[data-variant="Phone"] .step {
+  width: 40px;
+}
+
+.desktop[data-variant="Phone"] .stepnumber {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.desktop[data-variant="Phone"] .content {
+  gap: 10px;
+}
+
+/* responsive: Phone */
+
+@media (max-width: 809px) {
+  .desktop {
+    padding: 20px;
+  }
+
+  .step {
+    width: 40px;
+  }
+
+  .stepnumber {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .content {
+    gap: 10px;
+  }
+}

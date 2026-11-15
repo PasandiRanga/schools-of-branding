@@ -1,0 +1,156 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 160px;
+  padding: 140px 20px 140px 20px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: var(--color-ivory-cream);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 146px 0px 150px 0px;
+  width: 100%;
+  height: fit-content;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 30px 0px 30px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1460px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+  height: fit-content;
+  max-width: 760px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: fit-content;
+}
+
+.pre-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 20px 6px 20px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  overflow: hidden;
+  background-color: var(--color-soft-blush-pink);
+}
+
+.dot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.done {
+  width: 6px;
+  height: 6px;
+  aspect-ratio: 1;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: var(--color-burnt-orange);
+}
+
+.last-updated {
+  width: fit-content;
+  height: fit-content;
+}
+
+.content2 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: fit-content;
+}
+
+.content3 {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  max-width: 700px;
+}
+
+/* breakpoint: Tablet */
+
+@media (max-width: 1199px) {
+  .hero {
+    padding: 130px 0px 100px 0px;
+  }
+
+  .content {
+    gap: 50px;
+  }
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 809px) {
+  .hero {
+    padding: 100px 0px 80px 0px;
+  }
+
+  .container {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .content {
+    gap: 40px;
+  }
+}

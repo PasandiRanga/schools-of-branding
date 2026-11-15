@@ -1,0 +1,210 @@
+.desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 30px;
+  width: 555px;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--color-white);
+  border-style: solid;
+  border-color: var(--color-deep-forest-green-20);
+  border-width: 1px;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  height: fit-content;
+  min-height: 62px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 58px;
+  height: 62px;
+  aspect-ratio: 1;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.icon2 {
+  width: 28px;
+  height: 28px;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 48%;
+  top: 48%;
+  transform: translateX(-50%) translateY(-50%);
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 0px 20px 0px 0px;
+  width: 100%;
+  height: fit-content;
+}
+
+.title {
+  width: 100%;
+  height: fit-content;
+}
+
+.description {
+  width: 100%;
+  height: fit-content;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+  width: fit-content;
+  height: fit-content;
+  min-height: 62px;
+}
+
+.icon3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1;
+  position: relative;
+  z-index: 1;
+  border-radius: 100px;
+  overflow: hidden;
+  background-color: var(--color-dark-pine-green);
+}
+
+.iconborder {
+  width: 18px;
+  height: 18px;
+  aspect-ratio: 1;
+  position: absolute;
+  bottom: 6px;
+  left: 20px;
+  overflow: hidden;
+}
+
+/* variant: Desktop */
+
+.desktop:hover .icon2 {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.desktop:hover .icon3 {
+  background-color: var(--color-burnt-orange);
+}
+
+.desktop:hover .iconborder {
+  position: initial;
+  bottom: initial;
+  left: initial;
+}
+
+/* variant: Phone */
+
+.desktop[data-variant="Phone"] {
+  padding: 20px;
+  width: 390px;
+}
+
+.desktop[data-variant="Phone"] .left {
+  gap: 20px;
+}
+
+.desktop[data-variant="Phone"] .icon {
+  width: 44px;
+  height: 48px;
+}
+
+.desktop[data-variant="Phone"] .icon2 {
+  width: 20px;
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.desktop[data-variant="Phone"] .content {
+  gap: 6px;
+}
+
+.desktop[data-variant="Phone"] .icon3 {
+  width: 34px;
+}
+
+.desktop[data-variant="Phone"] .iconborder {
+  width: 16px;
+  position: initial;
+  bottom: initial;
+  left: initial;
+}
+
+/* responsive: Phone */
+
+@media (max-width: 809px) {
+  .desktop {
+    padding: 20px;
+    width: 390px;
+  }
+
+  .left {
+    gap: 20px;
+  }
+
+  .icon {
+    width: 44px;
+    height: 48px;
+  }
+
+  .icon2 {
+    width: 20px;
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .content {
+    gap: 6px;
+  }
+
+  .icon3 {
+    width: 34px;
+  }
+
+  .iconborder {
+    width: 16px;
+    position: initial;
+    bottom: initial;
+    left: initial;
+  }
+}

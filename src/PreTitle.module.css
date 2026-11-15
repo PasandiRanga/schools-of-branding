@@ -1,0 +1,35 @@
+.default {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 20px 6px 20px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.dot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.done {
+  width: 6px;
+  height: 6px;
+  aspect-ratio: 1;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.title {
+  width: fit-content;
+  height: fit-content;
+}

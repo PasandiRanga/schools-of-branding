@@ -1,0 +1,107 @@
+.desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 30px;
+  width: 400px;
+  height: fit-content;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--color-white);
+  border-style: solid;
+  border-color: var(--color-deep-forest-green-20);
+  border-width: 1px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 58px;
+  height: 58px;
+  aspect-ratio: 1;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.number {
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  left: 50%;
+  top: 84%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  width: 100%;
+  height: fit-content;
+}
+
+.title {
+  width: 100%;
+  height: fit-content;
+}
+
+.description {
+  width: 100%;
+  height: fit-content;
+}
+
+/* variant: Phone */
+
+.desktop[data-variant="Phone"] {
+  padding: 20px;
+}
+
+.desktop[data-variant="Phone"] .icon {
+  width: 44px;
+  height: 43px;
+}
+
+.desktop[data-variant="Phone"] .number {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.desktop[data-variant="Phone"] .content {
+  gap: 6px;
+}
+
+/* responsive: Phone */
+
+@media (max-width: 809px) {
+  .desktop {
+    padding: 20px;
+  }
+
+  .icon {
+    width: 44px;
+    height: 43px;
+  }
+
+  .number {
+    position: initial;
+    left: initial;
+    top: initial;
+    transform: initial;
+  }
+
+  .content {
+    gap: 6px;
+  }
+}

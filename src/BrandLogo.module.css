@@ -1,0 +1,17 @@
+.default {
+  gap: 10px;
+  width: auto;
+  height: 32px;
+  overflow: hidden;
+  display: block;
+}
+
+/* variant: Light */
+
+.default[data-variant="Light"] {
+  width: fit-content;
+  background-image: url("https://framerusercontent.com/images/KTieEL9wk3X3EhTtn7dtL7PBslM.svg");
+  background-size: cover;
+  background-position: center;
+  display: initial;
+}
