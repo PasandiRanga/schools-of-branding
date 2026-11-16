@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Instagram, Facebook, Linkedin, Youtube } from "lucide-react";
 import { NAV_LINKS } from "../data/content";
 
@@ -32,9 +33,9 @@ export default function Footer() {
           <div className="footer__col">
             <h4>Explore</h4>
             {NAV_LINKS.map((l) => (
-              <a key={l.href} href={l.href}>
+              <Link key={l.to} to={l.to}>
                 {l.label}
-              </a>
+              </Link>
             ))}
           </div>
 
@@ -42,15 +43,15 @@ export default function Footer() {
             <h4>Account</h4>
             <a href="#signup">Create account</a>
             <a href="#login">Log in</a>
-            <a href="#pricing">Enrol</a>
-            <a href="#programmes">Free sessions</a>
+            <Link to="/pricing">Enrol</Link>
+            <Link to="/programmes">Free sessions</Link>
           </div>
 
           <div className="footer__col">
             <h4>Get in touch</h4>
             <a href="mailto:hello@schoolsofbranding.com">hello@schoolsofbranding.com</a>
-            <a href="#contact">Workshops &amp; events</a>
-            <a href="#contact">Partner with us</a>
+            <Link to="/contact">Workshops &amp; events</Link>
+            <Link to="/contact">Partner with us</Link>
           </div>
         </div>
 

@@ -5,10 +5,12 @@ const img = (id: string, w = 800) =>
   `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=70`;
 
 export const NAV_LINKS = [
-  { label: "Home", href: "#home" },
-  { label: "Our Programmes", href: "#programmes" },
-  { label: "How it works", href: "#how" },
-  { label: "Contact Us", href: "#contact" },
+  { label: "Home", to: "/" },
+  { label: "Programmes", to: "/programmes" },
+  { label: "Mentors", to: "/mentors" },
+  { label: "About", to: "/about" },
+  { label: "Pricing", to: "/pricing" },
+  { label: "Contact", to: "/contact" },
 ];
 
 export const MARQUEE = [
@@ -204,6 +206,190 @@ export const PLANS = [
     features: ["Reserved physical seat", "Materials included", "Direct mentor feedback"],
     cta: "Reserve a seat",
     featured: false,
+  },
+];
+
+/* ---- Extra data for inner pages ---- */
+
+export const PROGRAMME_DETAILS = [
+  {
+    icon: "Sparkles",
+    title: "Brand Strategy",
+    tint: "var(--tint-blue)",
+    img: img("1558655146-9f40138edfeb"),
+    duration: "4 weeks",
+    format: "Online & in-person",
+    level: "Beginner friendly",
+    desc: "Position, name and shape a brand that people remember. We cover purpose, voice, identity and the story that holds everything together.",
+    outcomes: [
+      "A clear brand purpose & positioning",
+      "Your brand voice and personality",
+      "A simple visual identity direction",
+      "A one-page brand story to build on",
+    ],
+  },
+  {
+    icon: "Megaphone",
+    title: "Marketing Foundations",
+    tint: "var(--tint-yellow)",
+    img: img("1460925895917-afdab827c52f"),
+    duration: "4 weeks",
+    format: "Online & in-person",
+    level: "Beginner friendly",
+    desc: "Understand your audience, build campaigns that convert and learn the practical marketing playbook every founder needs from day one.",
+    outcomes: [
+      "Know and map your ideal customer",
+      "A simple, repeatable campaign plan",
+      "Channels that fit your budget",
+      "Metrics that actually matter",
+    ],
+  },
+  {
+    icon: "PenTool",
+    title: "Content Creation",
+    tint: "var(--tint-sky)",
+    img: img("1611162617474-5b21e879e113"),
+    duration: "5 weeks",
+    format: "Online & in-person",
+    level: "All levels",
+    desc: "Plan, write and produce content that earns attention — photography, copy, video and the systems that keep you consistent.",
+    outcomes: [
+      "A content plan you can keep up with",
+      "Writing and shooting fundamentals",
+      "Editing on tools you already own",
+      "A month of content, ready to post",
+    ],
+  },
+  {
+    icon: "Share2",
+    title: "Social Media Handling",
+    tint: "var(--tint-sun)",
+    img: img("1611926653458-09294b3142bf"),
+    duration: "5 weeks",
+    format: "Online & in-person",
+    level: "All levels",
+    desc: "Grow and manage real communities across platforms — calendars, analytics and engagement that actually sticks.",
+    outcomes: [
+      "A platform-by-platform strategy",
+      "A posting calendar & workflow",
+      "Community management basics",
+      "Reading analytics with confidence",
+    ],
+  },
+  {
+    icon: "Package",
+    title: "Packaging Design",
+    tint: "var(--tint-yellow)",
+    img: img("1607082348824-0a96f2a4b9da"),
+    duration: "4 weeks",
+    format: "In-person",
+    level: "Intermediate",
+    desc: "Turn a product into a shelf-stopping experience — materials, structure and design that sells before a word is read.",
+    outcomes: [
+      "Packaging that fits your brand",
+      "Materials & structure basics",
+      "Working with printers & suppliers",
+      "A packaging concept to test",
+    ],
+  },
+  {
+    icon: "Rocket",
+    title: "Launch Your Business",
+    tint: "var(--tint-blue)",
+    img: img("1556761175-b413da4baf72"),
+    duration: "8 weeks",
+    format: "Online & in-person",
+    level: "Capstone",
+    desc: "Bring it all together in a guided programme that takes your idea from concept to a brand ready to meet its market.",
+    outcomes: [
+      "A complete brand toolkit",
+      "A go-to-market plan",
+      "Launch content ready to ship",
+      "Mentor feedback at every step",
+    ],
+  },
+];
+
+export const MENTORS = [
+  {
+    name: "Janidu Chandrasekara",
+    role: "Co-founder · Brand Strategy",
+    bio: "Branding strategist helping founders turn raw ideas into brands with a clear voice and direction. Leads our strategy and identity programmes.",
+    img: img("1507003211169-0a1dd7228f2d"),
+  },
+  {
+    name: "Hansana Janinda",
+    role: "Co-founder · Marketing",
+    bio: "Marketing and content specialist focused on practical growth for early-stage businesses. Heads up marketing and content creation.",
+    img: img("1500648767791-00dcc994a43e"),
+  },
+  {
+    name: "Rahul Mendis",
+    role: "Mentor · Social Media",
+    bio: "Community builder who has grown audiences for local brands from zero. Teaches social strategy that fits a founder's time.",
+    img: img("1506794778202-cad84cf45f1d"),
+  },
+  {
+    name: "Ishara Fonseka",
+    role: "Mentor · Content",
+    bio: "Photographer and content producer who makes great content feel doable on any budget.",
+    img: img("1544005313-94ddf0286df2"),
+  },
+  {
+    name: "Tharindu Silva",
+    role: "Mentor · Packaging",
+    bio: "Product and packaging designer who has shipped work onto real shelves across Sri Lanka.",
+    img: img("1573497019940-1c28c88b4f3e"),
+  },
+  {
+    name: "Nadeesha Perera",
+    role: "Mentor · Launch",
+    bio: "Founder-turned-mentor who guides the capstone, from first idea to launch day.",
+    img: img("1580489944761-15a19d654956"),
+  },
+];
+
+export const VALUES = [
+  {
+    icon: "Target",
+    title: "Practical first",
+    desc: "You leave every session with something made, not just notes. Real assets for your real brand.",
+  },
+  {
+    icon: "MessageSquare",
+    title: "Honest feedback",
+    desc: "Kind, direct and useful. We tell you what's working and what isn't — the way a good mentor should.",
+  },
+  {
+    icon: "Users",
+    title: "Built on community",
+    desc: "You join a circle of founders who keep learning together long after the workshop ends.",
+  },
+  {
+    icon: "Heart",
+    title: "For real founders",
+    desc: "No jargon, no gatekeeping. Branding knowledge made for people actually starting a business.",
+  },
+];
+
+export const CONTACT_METHODS = [
+  {
+    icon: "Mail",
+    title: "Email us",
+    detail: "hello@schoolsofbranding.com",
+    sub: "We reply within a day, usually sooner.",
+  },
+  {
+    icon: "MessageSquare",
+    title: "Workshops & events",
+    detail: "Join an upcoming session",
+    sub: "Online live classes and in-person workshops.",
+  },
+  {
+    icon: "Users",
+    title: "Partner with us",
+    detail: "For brands & organisations",
+    sub: "Run a tailored workshop for your team.",
   },
 ];
 

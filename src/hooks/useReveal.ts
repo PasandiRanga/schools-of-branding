@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 
-/** Adds `.is-in` to every `.reveal` element as it scrolls into view. */
-export function useReveal() {
+/** Adds `.is-in` to every `.reveal` element as it scrolls into view.
+ *  Pass a changing `dep` (e.g. the route pathname) to re-scan after navigation. */
+export function useReveal(dep?: unknown) {
   useEffect(() => {
     const els = document.querySelectorAll<HTMLElement>(".reveal");
     if (!("IntersectionObserver" in window)) {
@@ -23,5 +24,6 @@ export function useReveal() {
     );
     els.forEach((el) => io.observe(el));
     return () => io.disconnect();
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [dep]);
 }

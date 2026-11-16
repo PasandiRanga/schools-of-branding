@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { NAV_LINKS } from "../data/content";
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const { pathname } = useLocation();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -13,18 +15,26 @@ export default function Nav() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  // close the mobile menu whenever the route changes
+  useEffect(() => setOpen(false), [pathname]);
+
   return (
-    <header className={`nav ${scrolled ? "scrolled" : ""}`} id="home">
+    <header className={`nav ${scrolled ? "scrolled" : ""}`}>
       <div className="container nav__inner">
-        <a href="#home" className="brand" aria-label="Schools of Branding home">
+        <Link to="/" className="brand" aria-label="Schools of Branding home">
           <img src="/brand/logo-transparent.png" alt="Schools of Branding" />
-        </a>
+        </Link>
 
         <nav className="nav__links" aria-label="Primary">
           {NAV_LINKS.map((l) => (
-            <a key={l.href} href={l.href}>
+            <NavLink
+              key={l.to}
+              to={l.to}
+              className={({ isActive }) => (isActive ? "is-active" : "")}
+              end={l.to === "/"}
+            >
               {l.label}
-            </a>
+            </NavLink>
           ))}
         </nav>
 
@@ -48,14 +58,17 @@ export default function Nav() {
 
       <div className={`nav__mobile ${open ? "open" : ""}`}>
         {NAV_LINKS.map((l) => (
-          <a key={l.href} href={l.href} onClick={() => setOpen(false)}>
+          <NavLink
+            key={l.to}
+            to={l.to}
+            end={l.to === "/"}
+            className={({ isActive }) => (isActive ? "is-active" : "")}
+          >
             {l.label}
-          </a>
+          </NavLink>
         ))}
-        <a href="#login" onClick={() => setOpen(false)}>
-          Log in
-        </a>
-        <a href="#signup" className="btn btn-primary" onClick={() => setOpen(false)}>
+        <a href="#login">Log in</a>
+        <a href="#signup" className="btn btn-primary">
           Create account
         </a>
       </div>
